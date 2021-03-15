@@ -1,0 +1,62 @@
+@import "dhtmlx-gantt/codebase/dhtmlxgantt.css";
+.gantt-chart {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.weekend {
+    background: #F0DFE5 !important;
+}
+
+.high {
+    border: 2px solid #d96c49;
+    color: #d96c49;
+    background: #d96c49;
+}
+
+.high .gantt_task_progress {
+    background: #db2536;
+}
+
+.medium {
+    border: 2px solid #34c461;
+    color: #34c461;
+    background: #34c461;
+}
+
+.medium .gantt_task_progress {
+    background: #23964d;
+}
+
+.low {
+    border: 2px solid #6ba8e3;
+    color: #6ba8e3;
+    background: #6ba8e3;
+}
+
+.low .gantt_task_progress {
+    background: #547dab;
+}
+
+.red .gantt_cell,
+.odd.red .gantt_cell,
+.red .gantt_task_cell,
+.odd.red .gantt_task_cell {
+    background-color: #FDE0E0;
+}
+
+.green .gantt_cell,
+.odd.green .gantt_cell,
+.green .gantt_task_cell,
+.odd.green .gantt_task_cell {
+    background-color: #BEE4BE;
+}
